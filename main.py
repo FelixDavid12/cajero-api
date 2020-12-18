@@ -16,8 +16,9 @@ origins = [
     "http://localhost:8080",
     "http://localhost:8081",
     "http://127.0.0.1:8887",
-    "http://localhost:8887",
-    "https://cajero-app12.herokuapp.com"
+    "https://cajero-app12.herokuapp.com",
+    "http://test.feltechcompany.co",
+    "https://test.feltechcompany.co"
 ]
 api.add_middleware(
     CORSMiddleware, allow_origins=origins,
